@@ -1,13 +1,13 @@
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import { useState, useEffect } from "react";
-import logo from "../assets/img/logo.svg"
-import navIcon1 from "../assets/img/nav-icon1.svg"
-import navIcon2 from "../assets/img/nav-icon2.svg"
-import navIcon3 from "../assets/img/nav-icon3.svg"
+import logo from "../assets/img/logo.svg";
+import navIcon1 from "../assets/img/nav-icon1.svg";
+import navIcon2 from "../assets/img/nav-icon2.svg";
+import navIcon3 from "../assets/img/nav-icon3.svg";
 
 function NavBar() {
   const [activeLink, setActiveLink] = useState("about");
-  const [scrolled, setScrolled] = useState("false");
+  const [scrolled, setScrolled] = useState(false);
 
   // handle scrolling behaviour => without scrolling, navbar is transparent. with scrolling, navbar turns black
   useEffect(() => {
@@ -71,7 +71,7 @@ function NavBar() {
             </Nav.Link>
           </Nav>
           {/* For social icons */}
-          <span className="navbar-text">
+          <span className="navbar-socials">
             <div className="social-icon">
               {/* Add social links on href */}
               <a href="#">
