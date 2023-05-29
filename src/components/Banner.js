@@ -2,7 +2,8 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import bannerImg from "../assets/img/header-img.svg";
+// import bannerImg from "../assets/img/header-img.svg";
+import bannerImg from "../assets/img/astro.svg";
 
 function Banner() {
   const wordsToRotate = [
@@ -71,9 +72,11 @@ function Banner() {
               <span className="dynamic-text">{displayedText}_</span>
             </h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.Lorem Ipsum is simply dummy text of the printing and
-              typesetting industry.
+              Hi! I'm currently a Year 3 undergraduate in Nanyang Technological
+              University, pursuing a Bachelor's Degree in Computer Science.
+              Equipped with a positive attitude and a passion for the IT industry,
+              I constantly strive to expand my horizons and experiment with new
+              things!
               <button onClick={() => console.log("connect")}>
                 Let's connect!
                 <ArrowRightCircle size={25} />
@@ -81,7 +84,7 @@ function Banner() {
             </p>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src={bannerImg} alt="Banner img"></img>
+            <img src={bannerImg} alt="Banner img" className="bannerImg"></img>
           </Col>
         </Row>
       </Container>

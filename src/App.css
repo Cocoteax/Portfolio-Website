@@ -262,12 +262,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* ========== Banner Styling ========== */
 .banner {
   margin-top: 0;
-  padding: 200px 0 100px 0;
+  padding: 225px 0 100px 0;
   background-image: url("./assets/img/banner-bg.png");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-  text-align: left;
+  text-align: justify;
 }
 
 .banner .tagline {
@@ -314,7 +314,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #fff;
   font-weight: 700;
   font-size: 20px;
-  margin-top: 45px;
+  margin-top: 40px;
   display: flex;
   align-items: center;
   /* margin-left: 10px; */
@@ -331,6 +331,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 .banner img {
+  max-width: 27rem;
+  margin-left: 4rem;
   animation: updown 3s linear infinite;
 }
 @keyframes updown {
@@ -338,7 +340,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         transform: translateY(-20px);
     }
     50% {
-        transform: translateY(20px);
+        transform: translateY(0);
     }
     100% {
         transform: translateY(-20px);
