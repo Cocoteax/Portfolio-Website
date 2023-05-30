@@ -104,13 +104,13 @@ nav.navbar {
   width: 100%;
   top: 0;
   z-index: 9999; /* Ensure that navbar is the top element that gets displayed in cases of overlapping elements */
-  transition: 0.32 ease-in-out;
+  transition: 0.32s ease-in-out;
 }
 
 /* scrolled class */
 nav.navbar.scrolled {
-  padding: 0;
-  background-color: white;
+  padding: 10px 0;
+  background-color: #121212;
 }
 
 /* Navbar.brand element */
@@ -336,18 +336,109 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   animation: updown 3s linear infinite;
 }
 @keyframes updown {
-    0% {
-        transform: translateY(-20px);
-    }
-    50% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(-20px);
-    }
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
 }
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
+}
+
+/* ========== Skills section styling ========== */
+.skill {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+
+.skill-container {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+
+.skill h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.skill p {
+  color: #b8b8b8;
+  font-size: 18px;
+  line-height: 1.5rem;
+  margin: 14px 0 75px 0;
+}
+
+.skill-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.skill-slider .item img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+}
+
+.background-image-left {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}
+
+/* Skillsets section (Alternative layout) */
+.skillsets {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+
+.skillsets-container {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+
+.skillsets h2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.custom-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 5.5rem);
+  justify-content: space-between;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.custom-grid img {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0 auto 15px auto;
+}
+
+/* Popup text on hover */
+.tooltip > .tooltip-inner {
+  border: #fff solid 1px;
+  font-weight: 700;
+
+}
+
+.tooltip > .tooltip-arrow {
+  display: none !important;
 }
 
 .App {
