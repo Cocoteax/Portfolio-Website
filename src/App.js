@@ -14,7 +14,6 @@ function App() {
       {/* <Skills /> */}
       <Skillsets />
       <Experience />
-      <Timeline />
     </div>
   );
 }

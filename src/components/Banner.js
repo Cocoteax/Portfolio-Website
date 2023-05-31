@@ -62,7 +62,7 @@ function Banner() {
               Hi! I am a penultimate year Computer Science student at Nanyang
               Technological University. Equipped with a positive attitude and a
               passion for the IT industry, I constantly strive to expand my
-              horizons and take on new challenges!
+              horizons and take on new challenges! I love meeting new people so feel free to connect with me :D
               <button onClick={() => console.log("connect")}>
                 Let's connect!
                 <ArrowRightCircle size={25} />
