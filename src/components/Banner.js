@@ -20,19 +20,7 @@ function Banner() {
     return new Promise((resolve) => setTimeout(resolve, ms));
   };
 
-  //   useEffect(() => {
-  //     let timer = setInterval(() => {
-  //       console.log("hello");
-  //     }, period);
-
-  //     return () => clearInterval(timer);
-  //   }, []);
-
   useEffect(() => {
-    // let timer = setInterval(() => {
-    //   rotateWords();
-    // }, 100);
-
     let timer = setTimeout(() => {
       rotateWords();
       return clearTimeout(timer);
@@ -45,7 +33,6 @@ function Banner() {
     let i = loopNum % wordsToRotate.length;
     let fullText = wordsToRotate[i];
     if (!isDeleting && displayedText !== fullText) {
-      console.log(fullText);
       setDisplayedText(fullText.slice(0, displayedText.length + 1));
     } else if (!isDeleting && displayedText === fullText) {
       setPeriod(50);
@@ -72,11 +59,10 @@ function Banner() {
               <span className="dynamic-text">{displayedText}_</span>
             </h1>
             <p>
-              Hi! I'm currently a Year 3 undergraduate in Nanyang Technological
-              University, pursuing a Bachelor's Degree in Computer Science.
-              Equipped with a positive attitude and a passion for the IT industry,
-              I constantly strive to expand my horizons and experiment with new
-              things!
+              Hi! I am a penultimate year Computer Science student at Nanyang
+              Technological University. Equipped with a positive attitude and a
+              passion for the IT industry, I constantly strive to expand my
+              horizons and take on new challenges!
               <button onClick={() => console.log("connect")}>
                 Let's connect!
                 <ArrowRightCircle size={25} />

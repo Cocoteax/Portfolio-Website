@@ -434,11 +434,82 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .tooltip > .tooltip-inner {
   border: #fff solid 1px;
   font-weight: 700;
-
 }
 
 .tooltip > .tooltip-arrow {
   display: none !important;
+}
+
+/* ========== Experience styling ========== */
+.experience {
+  padding: 80px 0;
+  position: relative;
+  /* background-color: black; */
+}
+
+.experience h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.experience p {
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  text-align: center;
+  width: 56%;
+}
+
+.experience .nav.nav-pills {
+  width: 72%;
+  margin: 0 auto;
+  border-radius: 50px;
+  background-color: rgb(255 255 255 / 10%);
+  overflow: hidden;
+}
+.experience .nav.nav-pills .nav-item {
+  width: 33.33333%;
+}
+.experience .nav.nav-pills .nav-link {
+  background-color: transparent;
+  border-radius: 0;
+  padding: 17px 0;
+  color: #fff;
+  width: 100%;
+  font-size: 17px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  z-index: 0;
+}
+/* color for each sub-tab */
+.experience .nav.nav-pills .nav-link::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+.experience .nav.nav-pills .nav-link.active::before {
+  width: 100% !important;
+}
+
+.background-image-right {
+  top: 20%;
+  position: absolute;
+  bottom: 0;
+  width: 35%;
+  right: 0;
+  z-index: -4;
 }
 
 .App {

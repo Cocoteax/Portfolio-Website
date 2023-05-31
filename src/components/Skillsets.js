@@ -20,22 +20,6 @@ import jira from "../assets/img/jira.svg";
 import skillsBackground from "../assets/img/color-sharp.png";
 
 function Skillsets() {
-  // // Create popup text for each icon hover
-  // const renderReactText = (props) => (
-  //   <Tooltip className="tooltip" {...props}>
-  //     React.js
-  //   </Tooltip>
-  // );
-  // const renderNodeText = (props) => (
-  //   <Tooltip className="tooltip" {...props}>
-  //     Node.js
-  //   </Tooltip>
-  // );
-  // const renderExpressText = (props) => (
-  //   <Tooltip className="tooltip" {...props}>
-  //     Express.js
-  //   </Tooltip>
-  // );
   const skillsAr = [
     [reactJS, "React.js"],
     [nodeJS, "Node.js"],
