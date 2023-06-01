@@ -1,9 +1,9 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import logo from "../assets/img/logo.svg";
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+import linkedInIcon from "../assets/img/nav-icon1.svg";
+import githubIcon from "../assets/img/github.svg";
+import instaIcon from "../assets/img/nav-icon3.svg";
 
 function NavBar() {
   const [activeLink, setActiveLink] = useState("about");
@@ -37,7 +37,7 @@ function NavBar() {
         <Navbar.Brand href="#about">
           <img src={logo} alt="Logo" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" className="ml-auto"/>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="ml-auto" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link
@@ -74,14 +74,14 @@ function NavBar() {
           <span className="navbar-socials">
             <div className="social-icon">
               {/* Add social links on href */}
-              <a href="#">
-                <img src={navIcon1} alt="" />
+              <a href="https://www.linkedin.com/in/joshuachng/" target="_blank">
+                <img src={linkedInIcon} alt="linkedin" />
               </a>
-              <a href="#">
-                <img src={navIcon2} alt="" />
+              <a href="https://github.com/Cocoteax" target="_blank">
+                <img src={githubIcon} alt="github" />
               </a>
-              <a href="#">
-                <img src={navIcon3} alt="" />
+              <a href="https://www.instagram.com/joshhhuuaa/" target="_blank">
+                <img src={instaIcon} alt="insta" />
               </a>
             </div>
             <button className="vvd" onClick={() => console.log("connect")}>
