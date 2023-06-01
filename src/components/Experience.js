@@ -14,8 +14,6 @@ import github from "../assets/img/github.svg";
 import psa from "../assets/img/psa.svg";
 import Timeline from "./Timeline";
 import experienceBackground from "../assets/img/color-sharp2.png";
-import TrackVisibility from "react-on-screen";
-import ScrollAnimation from "react-animate-on-scroll";
 
 function Experience() {
   // work timeline elements
