@@ -5,7 +5,6 @@ import "react-multi-carousel/lib/styles.css";
 import skill1 from "../assets/img/meter1.svg";
 import skill2 from "../assets/img/meter2.svg";
 import skill3 from "../assets/img/meter3.svg";
-import skill4 from "../assets/img/react.svg"
 import skillsBackground from "../assets/img/color-sharp.png";
 
 function Skills() {
@@ -45,19 +44,19 @@ function Skills() {
                 className="skill-slider"
               >
                 <div className="item">
-                  <img src={skill1} alt="Image"></img>
+                  <img src={skill1}></img>
                   <h5>Web Development</h5>
                 </div>
                 <div className="item">
-                  <img src={skill2} alt="Image"></img>
+                  <img src={skill2}></img>
                   <h5>Brand Identity</h5>
                 </div>
                 <div className="item">
-                  <img src={skill3} alt="Image"></img>
+                  <img src={skill3}></img>
                   <h5>Logo Design</h5>
                 </div>
                 <div className="item">
-                  <img src={skill1} alt="Image"></img>
+                  <img src={skill1}></img>
                   <h5>Web Development</h5>
                 </div>
               </Carousel>

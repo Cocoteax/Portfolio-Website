@@ -21,20 +21,26 @@ function Timeline(props) {
                 border: "2px solid #ffa6fc",
                 borderRadius: "20px",
                 // padding: "0",
-                // marginBottom: "10px",
-                // marginTop: "20px",
+                // marginBottom: "20px",
               }}
               contentArrowStyle={{ borderRight: "0px solid transparent" }}
-              icon={<img src={element.imgUrl} className="icon-img" />}
+              icon={
+                <img
+                  src={element.imgUrl}
+                  className={`icon-img ${element.iconChange? "icon-img-change" : ""}`}
+                  onClick={() => window.open(`${element.link}`, "_blank")}
+                  alt="icon"
+                />
+              }
               iconStyle={{ background: "black" }}
             >
               <h3 className="timeline-title">{element.title}</h3>
               <h4 className="timeline-source">{element.source}</h4>
-              <ul className="timeline-desc-list">
+              {element.description.length>0 && <ul className="timeline-desc-list">
                 {element.description.map((desc) => {
                   return <li>{desc}</li>;
                 })}
-              </ul>
+              </ul>}
               {element.techStacks !== undefined && (
                 <div className="techStack-container">
                   {element.techStacks.map((techStack, index) => {
@@ -47,12 +53,14 @@ function Timeline(props) {
                         <img
                           src={techStack[0]}
                           className="techStack-icon"
+                          alt="skill"
                         ></img>
                       </OverlayTrigger>
                     );
                   })}
                 </div>
               )}
+              <p className="timeline-date">{element.date}</p>
             </VerticalTimelineElement>
           );
         })}

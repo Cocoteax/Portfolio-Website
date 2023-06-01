@@ -17,6 +17,7 @@ import python from "../assets/img/python.svg";
 import spring from "../assets/img/spring-boot.svg";
 import django from "../assets/img/django.svg";
 import jira from "../assets/img/jira.svg";
+import github from "../assets/img/github.svg";
 import skillsBackground from "../assets/img/color-sharp.png";
 
 function Skillsets() {
@@ -38,6 +39,7 @@ function Skillsets() {
     [spring, "Spring Boot"],
     [firebase, "Firebase"],
     [jira, "Jira"],
+    [github, "Github"],
   ];
   return (
     <section className="skillsets">
@@ -55,32 +57,16 @@ function Skillsets() {
                       placement="bottom"
                       overlay={<Tooltip>{skill[1]}</Tooltip>}
                     >
-                      <img src={skill[0]}></img>
+                      <img src={skill[0]} alt="skill"></img>
                     </OverlayTrigger>
                   );
                 })}
-                {/* 
-                  <img src={expressJS} alt="expressJS"></img>
-                  <img src={javascript} alt="JS"></img>
-                  <img src={html} alt="html"></img>
-                  <img src={css} alt="css"></img>
-                  <img src={django} alt="Django"></img>
-                  <img src={python} alt="Python"></img>
-                  <img src={java} alt="Java"></img>
-                  <img src={mongoDB} alt="mongoDB"></img>
-                  <img src={mySQL} alt="mySQL"></img>
-                  <img src={postgres} alt="postgres"></img>
-                  <img src={git} alt="git"></img>
-                  <img src={figma} alt="figma"></img>
-                  <img src={jira} alt="jira"></img>
-                  <img src={spring} alt="springboot"></img>
-                  <img src={firebase} alt="firebase"></img> */}
               </div>
             </div>
           </Col>
         </Row>
       </Container>
-      <img src={skillsBackground} className="background-image-left" />
+      <img src={skillsBackground} className="background-image-left" alt="background"/>
     </section>
   );
 }

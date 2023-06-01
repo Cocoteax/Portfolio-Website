@@ -463,7 +463,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
 }
 .experience .nav.nav-pills .nav-item {
-  width: 33.33333%;
+  /* width: 33.33333%; */
+  width: 50%;
 }
 .experience .nav.nav-pills .nav-link {
   background-color: transparent;
@@ -511,12 +512,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .timeline-title {
   font-weight: 500;
   font-size: 25px;
+  text-align: center;
 }
 
 .timeline-source {
   font-weight: 400;
   font-size: 20px;
   margin-bottom: -5px;
+  text-align: center;
+  white-space: pre-line;
+  line-height: 30px;
 }
 
 .timeline-desc-list {
@@ -531,9 +536,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 16px;
   letter-spacing: 0.8px;
   line-height: 1.6em;
-  text-align: justify;
   margin-top: 0.4rem;
   font-weight: 400;
+}
+
+.timeline-desc-list li:nth-child(n + 2) {
+  margin-top: 0.4rem;
 }
 
 .timeline-desc-list li::before {
@@ -546,25 +554,47 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .vertical-timeline-element-icon {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 .icon-img {
-max-width: 55%;
-object-fit: contain;
+  max-width: 50%;
+  object-fit: contain;
+}
+.icon-img:hover {
+  cursor: pointer;
+}
+.icon-img-change {
+  background: white;
+  border: 2px solid white;
+  border-radius: 30%;
 }
 
 .techStack-container {
   display: flex;
-  float:left;
-  width: 1.5rem;
-  height: 1.5rem;
-  margin: 0.4rem 0 0 0.5em;
+  float: left;
+  width: 100%;
+  margin: 0.8rem 0 0 0.5em;
 }
 
-.techStack-icon:nth-child(n+2) {
+.techStack-container img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.techStack-icon:nth-child(n + 2) {
   margin-left: 0.6rem;
+}
+
+.timeline-date {
+  float: left;
+  padding-left: 0.85em;
+  margin-top: 0.8rem !important;
+  color: #b8b8b8;
+  font-size: 14px !important;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .App {
