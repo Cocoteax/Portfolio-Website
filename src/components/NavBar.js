@@ -34,11 +34,11 @@ function NavBar() {
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="#about">
+        {/* <Navbar.Brand href="#about">
           <img src={logo} alt="Logo" />
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        </Navbar.Brand> */}
+        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" className="ml-auto"/>
+        <Navbar.Collapse id="basic-navbar-nav"> */}
           <Nav className="me-auto">
             <Nav.Link
               href="#about"
@@ -88,7 +88,7 @@ function NavBar() {
               <span>Let's Connect</span>
             </button>
           </span>
-        </Navbar.Collapse>
+        {/* </Navbar.Collapse> */}
       </Container>
     </Navbar>
   );

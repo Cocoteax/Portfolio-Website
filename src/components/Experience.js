@@ -14,6 +14,8 @@ import github from "../assets/img/github.svg";
 import psa from "../assets/img/psa.svg";
 import Timeline from "./Timeline";
 import experienceBackground from "../assets/img/color-sharp2.png";
+import TrackVisibility from "react-on-screen";
+import ScrollAnimation from "react-animate-on-scroll";
 
 function Experience() {
   // work timeline elements
@@ -36,7 +38,6 @@ function Experience() {
       ],
       link: "https://www.ocbc.com/group/gateway",
       date: "Jan 2023 - May 2023",
-      iconChange: false, // Set to true if icon is black and needs to be changed to white
     },
     {
       title: "Port of Singapore Authority (PSA)",
@@ -53,7 +54,7 @@ function Experience() {
       ],
       link: "https://www.singaporepsa.com/",
       date: "May 2022 - Aug 2022",
-      iconChange: true,
+      iconChange: true, // Set to true if icon is black and needs to be changed to white
     },
   ];
 
@@ -100,11 +101,11 @@ function Experience() {
   ];
 
   return (
-    <section className="experience">
+    <section className="experience" id="experience">
       <Container>
         <Row>
           <Col>
-            <h2>EXPERIENCE</h2>
+              <h2>EXPERIENCE</h2>
             <Tab.Container defaultActiveKey="first">
               <Nav variant="pills" defaultActiveKey="/home">
                 <Nav.Item>
@@ -126,7 +127,11 @@ function Experience() {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={experienceBackground} alt="background"/>
+      <img
+        className="background-image-right"
+        src={experienceBackground}
+        alt="background"
+      />
     </section>
   );
 }

@@ -19,6 +19,7 @@ import django from "../assets/img/django.svg";
 import jira from "../assets/img/jira.svg";
 import github from "../assets/img/github.svg";
 import skillsBackground from "../assets/img/color-sharp.png";
+import ScrollAnimation from "react-animate-on-scroll";
 
 function Skillsets() {
   const skillsAr = [
@@ -46,27 +47,36 @@ function Skillsets() {
       <Container>
         <Row>
           <Col>
-            <div className="skillsets-container">
-              <h2>SKILLS</h2>
-              <div className="custom-grid gap-x-6 gap-y-4 md:gap-x-6 md:gap-y-6 break:gap-x-10 break:gap-y-8 mb-10">
-                {/* Use .map() to iterate over each icon to create a pop up effect on hover */}
-                {skillsAr.map((skill) => {
-                  return (
-                    <OverlayTrigger
-                      key={skill[0]}
-                      placement="bottom"
-                      overlay={<Tooltip>{skill[1]}</Tooltip>}
-                    >
-                      <img src={skill[0]} alt="skill"></img>
-                    </OverlayTrigger>
-                  );
-                })}
-              </div>
+            <div className="skillsets-container" id="skills">
+              <ScrollAnimation
+                animateIn="animate__animated animate__fadeIn"
+                animateOut="animate_aniamted animate__fadeOut"
+              >
+                <h2>SKILLS</h2>
+                <div className="custom-grid gap-x-6 gap-y-4 md:gap-x-6 md:gap-y-6 break:gap-x-10 break:gap-y-8 mb-10">
+                  {/* Use .map() to iterate over each icon to create a pop up effect on hover */}
+                  {skillsAr.map((skill) => {
+                    return (
+                      <OverlayTrigger
+                        key={skill[0]}
+                        placement="bottom"
+                        overlay={<Tooltip>{skill[1]}</Tooltip>}
+                      >
+                        <img src={skill[0]} alt="skill"></img>
+                      </OverlayTrigger>
+                    );
+                  })}
+                </div>
+              </ScrollAnimation>
             </div>
           </Col>
         </Row>
       </Container>
-      <img src={skillsBackground} className="background-image-left" alt="background"/>
+      <img
+        src={skillsBackground}
+        className="background-image-left"
+        alt="background"
+      />
     </section>
   );
 }
