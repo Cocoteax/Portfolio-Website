@@ -37,8 +37,8 @@ function NavBar() {
         <Navbar.Brand href="#about">
           <img src={logo} alt="Logo" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" className="ml-auto" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" className="ml-auto" />
+        <Navbar.Collapse id="basic-navbar-nav"> */}
           <Nav className="me-auto">
             <Nav.Link
               href="#about"
@@ -84,11 +84,11 @@ function NavBar() {
                 <img src={instaIcon} alt="insta" />
               </a>
             </div>
-            <button className="vvd" onClick={() => console.log("connect")}>
+            {/* <button className="vvd" onClick={() => console.log("connect")}>
               <span>Let's Connect</span>
-            </button>
+            </button> */}
           </span>
-        </Navbar.Collapse>
+        {/* </Navbar.Collapse> */}
       </Container>
     </Navbar>
   );
