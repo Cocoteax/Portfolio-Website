@@ -60,6 +60,7 @@ function NavBar() {
             </Nav.Link>
             <Nav.Link
               href="#experience"
+              id = "expLink"
               className={
                 activeLink === "experience"
                   ? "active navbar-link"

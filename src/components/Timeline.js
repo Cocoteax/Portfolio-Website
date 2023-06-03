@@ -18,10 +18,10 @@ function Timeline(props) {
                 background: "transparent",
                 color: "#fff",
                 boxShadow: "none",
-                border: "2px solid #ffa6fc",
-                borderRadius: "20px",
-                // padding: "0",
-                // marginBottom: "20px",
+                // border: "2px solid #ffa6fc",
+                // borderRadius: "20px",
+                padding: "0",
+                marginBottom: "20px",
               }}
               contentArrowStyle={{ borderRight: "0px solid transparent" }}
               icon={
