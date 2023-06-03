@@ -657,6 +657,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   .banner button {
     font-size: 1rem;
+    margin-top: 1rem;
   }
   .banner button svg {
     width: 1rem;
