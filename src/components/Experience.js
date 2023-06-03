@@ -40,23 +40,23 @@ function Experience() {
       link: "https://www.ocbc.com/group/gateway",
       date: "Jan 2023 - May 2023",
     },
-    {
-      title: "Bytedance",
-      source: "Software Engineer Intern\nGlobal Payments",
-      description: [
-        "Full-stack development to support business requirements for ByteDance's internal payments processes.",
-        "Implemented a schema builder to keep track of payment channels' capabilities and configure capability schemas and elements.",
-      ],
-      imgUrl: byteDance,
-      techStacks: [
-        [react, "React"],
-        [javascript, "Javascript"],
-        [nodeJS, "NodeJS"],
-        [mongoDB, "mongoDB"],
-      ],
-      link: "https://www.bytedance.com/en/",
-      date: "May 2022 - Aug 2022",
-    },
+    // {
+    //   title: "Bytedance",
+    //   source: "Software Engineer Intern\nGlobal Payments",
+    //   description: [
+    //     "Full-stack development to support business requirements for ByteDance's internal payments processes.",
+    //     "Implemented a schema builder to keep track of payment channels' capabilities and configure capability schemas and elements.",
+    //   ],
+    //   imgUrl: byteDance,
+    //   techStacks: [
+    //     [react, "React"],
+    //     [javascript, "Javascript"],
+    //     [nodeJS, "NodeJS"],
+    //     [mongoDB, "mongoDB"],
+    //   ],
+    //   link: "https://www.bytedance.com/en/",
+    //   date: "May 2022 - Aug 2022",
+    // },
     {
       title: "Port of Singapore Authority (PSA)",
       source: "Product Management Intern\nGroup Cargo Solutions",
