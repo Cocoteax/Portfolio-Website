@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.2cb707a8.css",
+    "main.css": "/Portfolio-Website/static/css/main.ade4af4e.css",
     "main.js": "/Portfolio-Website/static/js/main.2834c407.js",
     "static/media/astroLaptop.png": "/Portfolio-Website/static/media/astroLaptop.b0b7dd2184596002a366.png",
     "static/media/color-sharp.png": "/Portfolio-Website/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -43,11 +43,11 @@
     "static/media/css.svg": "/Portfolio-Website/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/html.svg": "/Portfolio-Website/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/bytedance.svg": "/Portfolio-Website/static/media/bytedance.06a5fe054b65072687c2342795c45a02.svg",
-    "main.2cb707a8.css.map": "/Portfolio-Website/static/css/main.2cb707a8.css.map",
+    "main.ade4af4e.css.map": "/Portfolio-Website/static/css/main.ade4af4e.css.map",
     "main.2834c407.js.map": "/Portfolio-Website/static/js/main.2834c407.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cb707a8.css",
+    "static/css/main.ade4af4e.css",
     "static/js/main.2834c407.js"
   ]
 }
