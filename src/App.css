@@ -640,18 +640,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding: 0 15px;
   }
   .banner h1 {
-    margin-top: -4rem;
+    margin-top: 0;
+    font-size: 2.5rem;
     text-align: center;
   }
-  .banner button {
-    margin-top: 1rem;
+  .banner .dynamic-text {
+    font-size: 1rem;
   }
   .banner p {
+    font-size: 0.875rem;
     margin: 0 auto;
   }
   .banner img {
-    max-width: 17rem;
+    max-width: 14rem;
     margin: 0rem auto 0 auto;
+  }
+  .banner button {
+    font-size: 1rem;
+  }
+  .banner button svg {
+    width: 1rem;
+    height: 1rem;
   }
   .skillsets-container {
     padding: 60px 0;
@@ -659,6 +668,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .custom-grid img {
     width: 3rem;
     height: 3rem;
+  }
+  .skillsets h2 {
+    font-size: 2rem;
+  }
+  .custom-grid {
+    grid-template-columns: repeat(auto-fill, 2rem);
+  }
+  .experience h2 {
+    font-size: 2rem;
+  }
+  .experience .nav.nav-pills .nav-link {
+    font-size: 0.875rem;
+  }
+  .timeline-desc-list li {
+    font-size: 0.875rem;
   }
 }
 
@@ -761,8 +785,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-size: 0.875rem;
   }
 }
-
-/* ADD MEDIA QUERY FOR POPULAR DEVICES */
 
 .App {
   text-align: center;

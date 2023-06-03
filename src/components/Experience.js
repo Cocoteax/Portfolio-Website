@@ -3,15 +3,18 @@ import { Col, Container, Row, Nav, Tab } from "react-bootstrap";
 import expenseTracker from "../assets/img/expense-tracker.svg";
 import mindfull from "../assets/img/Mindfull.svg";
 import ocbc from "../assets/img/OCBC.png";
+import psa from "../assets/img/psa.svg";
+import byteDance from "../assets/img/bytedance.svg"
 import javascript from "../assets/img/javascript.svg";
 import react from "../assets/img/react.svg";
+import nodeJS from "../assets/img/nodejs.svg";
+import mongoDB from "../assets/img/mongodb.svg"
 import python from "../assets/img/python.svg";
 import django from "../assets/img/django.svg";
 import jira from "../assets/img/jira.svg";
 import figma from "../assets/img/figma.svg";
 import pega from "../assets/img/pega.jpg";
 import github from "../assets/img/github.svg";
-import psa from "../assets/img/psa.svg";
 import Timeline from "./Timeline";
 import experienceBackground from "../assets/img/color-sharp2.png";
 
@@ -38,6 +41,23 @@ function Experience() {
       date: "Jan 2023 - May 2023",
     },
     {
+      title: "Bytedance",
+      source: "Software Engineer Intern\nGlobal Payments",
+      description: [
+        "Full-stack development to support business requirements for ByteDance's internal payments processes.",
+        "Implemented a schema builder to keep track of payment channels' capabilities and configure capability schemas and elements.",
+      ],
+      imgUrl: byteDance,
+      techStacks: [
+        [react, "React"],
+        [javascript, "Javascript"],
+        [nodeJS, "NodeJS"],
+        [mongoDB, "mongoDB"],
+      ],
+      link: "https://www.bytedance.com/en/",
+      date: "May 2022 - Aug 2022",
+    },
+    {
       title: "Port of Singapore Authority (PSA)",
       source: "Product Management Intern\nGroup Cargo Solutions",
       description: [
@@ -51,7 +71,7 @@ function Experience() {
         [figma, "Figma"],
       ],
       link: "https://www.singaporepsa.com/",
-      date: "May 2022 - Aug 2022",
+      date: "May 2021 - Aug 2021",
       iconChange: true, // Set to true if icon is black and needs to be changed to white
     },
   ];
@@ -62,7 +82,7 @@ function Experience() {
       title: "Expense Tracker",
       source: "Personal Project",
       description: [
-        "Expense Trackers is a responsive web-application that I built to practice the fundamentals of React.",
+        "Expense Tracker is a responsive web-application that I built to practice the fundamentals of React.",
       ],
       imgUrl: expenseTracker,
       techStacks: [
@@ -103,7 +123,7 @@ function Experience() {
       <Container>
         <Row>
           <Col>
-              <h2>EXPERIENCE</h2>
+            <h2>EXPERIENCE</h2>
             <Tab.Container defaultActiveKey="first">
               <Nav variant="pills" defaultActiveKey="/home">
                 <Nav.Item>
