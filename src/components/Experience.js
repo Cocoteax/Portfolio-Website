@@ -62,7 +62,7 @@ function Experience() {
       title: "Expense Tracker",
       source: "Personal Project",
       description: [
-        "Expense Tracker is a responsive web-application that I built to practice the fundamentals of React.",
+        "Expense Trackers is a responsive web-application that I built to practice the fundamentals of React.",
       ],
       imgUrl: expenseTracker,
       techStacks: [
