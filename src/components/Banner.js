@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 // import bannerImg from "../assets/img/header-img.svg";
-import bannerImg from "../assets/img/astro.svg";
+import bannerImg from "../assets/img/astroLaptop.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
 function Banner() {
