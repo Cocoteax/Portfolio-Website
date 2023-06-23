@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/Portfolio-Website/static/css/main.9d625f9c.css",
-    "main.js": "/Portfolio-Website/static/js/main.334d1c76.js",
-    "static/media/astroLaptop.png": "/Portfolio-Website/static/media/astroLaptop.b0b7dd2184596002a366.png",
+    "main.js": "/Portfolio-Website/static/js/main.95d996c4.js",
     "static/media/color-sharp.png": "/Portfolio-Website/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/Portfolio-Website/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/astroLaptop.webp": "/Portfolio-Website/static/media/astroLaptop.7820d7e97b7e1a5a7812.webp",
     "static/media/websiteLogo.png": "/Portfolio-Website/static/media/websiteLogo.c1858ac669c6ec7e48db.png",
     "static/media/banner-bg.png": "/Portfolio-Website/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/CentraNo2-Bold.ttf": "/Portfolio-Website/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -44,10 +44,10 @@
     "static/media/html.svg": "/Portfolio-Website/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/bytedance.svg": "/Portfolio-Website/static/media/bytedance.06a5fe054b65072687c2342795c45a02.svg",
     "main.9d625f9c.css.map": "/Portfolio-Website/static/css/main.9d625f9c.css.map",
-    "main.334d1c76.js.map": "/Portfolio-Website/static/js/main.334d1c76.js.map"
+    "main.95d996c4.js.map": "/Portfolio-Website/static/js/main.95d996c4.js.map"
   },
   "entrypoints": [
     "static/css/main.9d625f9c.css",
-    "static/js/main.334d1c76.js"
+    "static/js/main.95d996c4.js"
   ]
 }
