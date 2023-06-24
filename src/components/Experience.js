@@ -26,7 +26,7 @@ function Experience() {
       source:
         "Product Owner / Software Engineer Intern\nGlobal Wholesale Banking",
       description: [
-        "Responsible for delivering an internal digital CRM platform for relationship managers to manage their customers portfolios.",
+        "Responsible for delivering an internal digital CRM platform for relationship managers to manage their customers' portfolios.",
         "Implemented an automated utility to shorten access management processing cycle for the CRM using Python.",
         "Developed user stories and designed wireframes for regional rollout of existing modules.",
       ],
