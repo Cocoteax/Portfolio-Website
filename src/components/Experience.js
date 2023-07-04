@@ -90,8 +90,8 @@ function Experience() {
       ],
       imgUrl: onlineShop,
       techStacks: [
-        [expressJS, "Express.JS"],
-        [nodeJS, "Node.JS"],
+        [expressJS, "Express.js"],
+        [nodeJS, "Node.js"],
         [mongoDB, "MongoDB"],
         [EJS, "EJS"],
       ],
