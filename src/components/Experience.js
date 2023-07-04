@@ -116,7 +116,7 @@ function Experience() {
       title: "MindFull",
       source: "CZ3002: Advanced Software Engineering",
       description: [
-        "Mindfull is a web community that aims to promote mental health awareness.",
+        "MindFull is a web community that aims to promote mental health awareness.",
         "Implemented a RESTful system consisting of a forum platform and a Counsellor-User appointment system for users to interact and connect.",
       ],
       imgUrl: mindfull,
