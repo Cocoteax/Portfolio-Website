@@ -9,7 +9,7 @@ function Banner() {
   const wordsToRotate = [
     "Aspiring Software Engineer",
     "Computer Science Student",
-    "Detail-Oriented Learner",
+    "People-Oriented Individual",
   ];
   const [loopNum, setLoopNum] = useState(0); // Used to determine which word we are rotating from the array
   const [isDeleting, setIsDeleting] = useState(false);
@@ -23,10 +23,9 @@ function Banner() {
   useEffect(() => {
     let timer = setTimeout(() => {
       rotateWords();
-      return clearTimeout(timer);
     }, period);
 
-    return () => clearInterval(timer);
+    return () => clearTimeout(timer);
   }, [displayedText, isDeleting, period]);
 
   const rotateWords = async () => {
