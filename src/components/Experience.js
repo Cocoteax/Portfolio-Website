@@ -1,14 +1,17 @@
 import React from "react";
 import { Col, Container, Row, Nav, Tab } from "react-bootstrap";
+import onlineShop from "../assets/img/online-shop.svg"
 import expenseTracker from "../assets/img/expense-tracker.svg";
 import mindfull from "../assets/img/Mindfull.svg";
 import ocbc from "../assets/img/OCBC.png";
 import psa from "../assets/img/psa.svg";
-import byteDance from "../assets/img/bytedance.svg"
+import byteDance from "../assets/img/bytedance.svg";
 import javascript from "../assets/img/javascript.svg";
 import react from "../assets/img/react.svg";
 import nodeJS from "../assets/img/nodejs.svg";
-import mongoDB from "../assets/img/mongodb.svg"
+import expressJS from "../assets/img/express.svg";
+import EJS from "../assets/img/EJS.svg";
+import mongoDB from "../assets/img/mongodb.svg";
 import python from "../assets/img/python.svg";
 import django from "../assets/img/django.svg";
 import jira from "../assets/img/jira.svg";
@@ -78,6 +81,23 @@ function Experience() {
 
   // projects timeline elements
   const projects = [
+    {
+      title: "Online Store",
+      source: "Personal Project",
+      description: [
+        "Built a full-stack online shop application whilst learning nodeJS / expressJS",
+        "Frontend is built using EJS templating engine and backend is built using ExpressJS and MongoDB Atlas",
+      ],
+      imgUrl: onlineShop,
+      techStacks: [
+        [expressJS, "Express.JS"],
+        [nodeJS, "Node.JS"],
+        [mongoDB, "MongoDB"],
+        [EJS, "EJS"],
+      ],
+      link: "https://github.com/Cocoteax/Mini-Online-Shop-Project",
+      date: "May 2023 - Jul 2023"
+    },
     {
       title: "Expense Tracker",
       source: "Personal Project",
