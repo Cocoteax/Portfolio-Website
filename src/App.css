@@ -443,7 +443,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* ========== Experience styling ========== */
 .experience {
-  padding: 80px 0;
+  padding: 80px 0 48px 0;
   position: relative;
   /* background-color: black; */
 }
@@ -595,6 +595,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 14px !important;
   font-weight: 700;
   font-style: italic;
+}
+
+.footer {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #b8b8b8; /* Change the color */
 }
 
 /* ========== Media Queries ========== */

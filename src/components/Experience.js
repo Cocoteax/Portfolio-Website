@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row, Nav, Tab } from "react-bootstrap";
-import onlineShop from "../assets/img/online-shop.svg"
+import onlineShop from "../assets/img/online-shop.svg";
 import expenseTracker from "../assets/img/expense-tracker.svg";
 import mindfull from "../assets/img/Mindfull.svg";
 import ocbc from "../assets/img/OCBC.png";
@@ -96,7 +96,7 @@ function Experience() {
         [EJS, "EJS"],
       ],
       link: "https://github.com/Cocoteax/Mini-Online-Shop-Project",
-      date: "May 2023 - Jul 2023"
+      date: "May 2023 - Jul 2023",
     },
     {
       title: "Expense Tracker",
@@ -164,6 +164,7 @@ function Experience() {
             </Tab.Container>
           </Col>
         </Row>
+        <div className="footer">~ Designed and developed using ReactJS ~</div>
       </Container>
       <img
         className="background-image-right"
