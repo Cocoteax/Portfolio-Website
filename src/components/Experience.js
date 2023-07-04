@@ -85,8 +85,8 @@ function Experience() {
       title: "Online Store",
       source: "Personal Project",
       description: [
-        "Built a full-stack mini online shop application whilst learning nodeJS / expressJS",
-        "Frontend is built using EJS templating engine and backend is built using ExpressJS and MongoDB Atlas",
+        "Built a full-stack mini online shop application whilst learning nodeJS / expressJS.",
+        "Frontend is built using EJS templating engine and backend is built using ExpressJS and MongoDB Atlas.",
       ],
       imgUrl: onlineShop,
       techStacks: [
