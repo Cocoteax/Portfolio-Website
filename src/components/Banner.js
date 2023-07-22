@@ -64,12 +64,11 @@ function Banner() {
               <span className="dynamic-text">{displayedText}_</span>
             </h1>
             <p>
-              Hi! I am a vibrant and driven penultimate year Computer Science
-              student at Nanyang Technological University. With an unwaivering
-              positive attitude and a deep-rooted passion for the IT industry, I
-              seek to expand my horizons and welcome new challenges with open
-              arms! Connecting with new people brings me great joy, so please
-              don't hesitate to reach out and connect with me :D
+              Hi! I am a penultimate year Computer Science student at Nanyang
+              Technological University. Equipped with a positive attitude and a
+              passion for the IT industry, I constantly strive to expand my
+              horizons and take on new challenges! I love meeting new people so
+              feel free to connect with me :D
               <button
                 onClick={() =>
                   window.open(
