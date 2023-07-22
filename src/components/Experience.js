@@ -164,7 +164,7 @@ function Experience() {
             </Tab.Container>
           </Col>
         </Row>
-        <div className="footer">~ Designed and developed using ReactJS ~</div>
+        <div className="footer">Designed and developed using ReactJS</div>
       </Container>
       <img
         className="background-image-right"
