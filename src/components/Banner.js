@@ -31,15 +31,22 @@ function Banner() {
   const rotateWords = async () => {
     let i = loopNum % wordsToRotate.length;
     let fullText = wordsToRotate[i];
+    // Displaying full text
     if (!isDeleting && displayedText !== fullText) {
       setDisplayedText(fullText.slice(0, displayedText.length + 1));
-    } else if (!isDeleting && displayedText === fullText) {
-      setPeriod(50);
+    }
+    // Full text displayed, starting deletion
+    else if (!isDeleting && displayedText === fullText) {
       await delay(1500);
+      setPeriod(50);
       setIsDeleting(true);
-    } else if (isDeleting && displayedText !== "") {
+    }
+    // Deleting text
+    else if (isDeleting && displayedText !== "") {
       setDisplayedText(fullText.slice(0, displayedText.length - 1));
-    } else {
+    }
+    // Text fully deleted, displaying next word
+    else {
       await delay(1000);
       setPeriod(100);
       setLoopNum((prev) => prev + 1);
@@ -52,22 +59,29 @@ function Banner() {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            {/* <span className="tagline">Welcome to my Portfolio!</span> */}
-              <h1>
-                {`Joshua Chng`}
-                <span className="dynamic-text">{displayedText}_</span>
-              </h1>
-              <p>
-                Hi! I am a penultimate year Computer Science student at Nanyang
-                Technological University. Equipped with a positive attitude and
-                a passion for the IT industry, I constantly strive to expand my
-                horizons and take on new challenges! I love meeting new people
-                so feel free to connect with me :D
-                <button onClick={() => console.log("connect")}>
-                  Let's connect!
-                  <ArrowRightCircle size={25} />
-                </button>
-              </p>
+            <h1>
+              {`Joshua Chng`}
+              <span className="dynamic-text">{displayedText}_</span>
+            </h1>
+            <p>
+              Hi! I am a vibrant and driven penultimate year Computer Science
+              student at Nanyang Technological University. With an unwaivering
+              positive attitude and a deep-rooted passion for the IT industry, I
+              seek to expand my horizons and welcome new challenges with open
+              arms! Connecting with new people brings me great joy, so please
+              don't hesitate to reach out and connect with me :D
+              <button
+                onClick={() =>
+                  window.open(
+                    "https://www.linkedin.com/in/joshuachng/",
+                    "_blank"
+                  )
+                }
+              >
+                Let's connect!
+                <ArrowRightCircle size={25} />
+              </button>
+            </p>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={bannerImg} alt="Banner img" className="bannerImg"></img>
