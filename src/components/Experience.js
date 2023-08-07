@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row, Nav, Tab } from "react-bootstrap";
+import devcamper from "../assets/img/Devcamper.png";
 import onlineShop from "../assets/img/online-shop.svg";
 import expenseTracker from "../assets/img/expense-tracker.svg";
 import mindfull from "../assets/img/Mindfull.svg";
@@ -17,7 +18,9 @@ import django from "../assets/img/django.svg";
 import jira from "../assets/img/jira.svg";
 import figma from "../assets/img/figma.svg";
 import pega from "../assets/img/pega.jpg";
+import mailtrap from "../assets/img/mailtrap.png";
 import github from "../assets/img/github.svg";
+import postman from "../assets/img/postman.svg";
 import Timeline from "./Timeline";
 import experienceBackground from "../assets/img/color-sharp2.png";
 
@@ -72,6 +75,7 @@ function Experience() {
       techStacks: [
         [jira, "Jira"],
         [figma, "Figma"],
+        [postman, "Postman"],
       ],
       link: "https://www.singaporepsa.com/",
       date: "May 2021 - Aug 2021",
@@ -81,6 +85,23 @@ function Experience() {
 
   // projects timeline elements
   const projects = [
+    {
+      title: "Devcamper REST API",
+      source: "Personal Project",
+      description: [
+        "Devcamper is a RESTful API for users to create, manage, and search for coding bootcamps around the world.",
+        "Includes JWT Authentication and Roles Authorization for security purposes.",
+      ],
+      imgUrl: devcamper,
+      techStacks: [
+        [expressJS, "Express.js"],
+        [nodeJS, "Node.js"],
+        [mongoDB, "MongoDB"],
+        [mailtrap, "Mailtrap.io"],
+      ],
+      link: "https://github.com/Cocoteax/Devcamper-REST-API",
+      date: "Jul 2023 - Aug 2023",
+    },
     {
       title: "Online Store",
       source: "Personal Project",

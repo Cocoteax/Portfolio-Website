@@ -18,6 +18,7 @@ import spring from "../assets/img/spring-boot.svg";
 import django from "../assets/img/django.svg";
 import jira from "../assets/img/jira.svg";
 import github from "../assets/img/github.svg";
+import postman from "../assets/img/postman.svg"
 import skillsBackground from "../assets/img/color-sharp.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -35,6 +36,7 @@ function Skillsets() {
     [mongoDB, "MongoDB"],
     [mySQL, "MySQL"],
     [postgres, "PostgreSQL"],
+    [postman, "Postman"],
     [git, "Git"],
     [figma, "Figma"],
     [spring, "Spring Boot"],
