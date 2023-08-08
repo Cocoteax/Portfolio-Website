@@ -18,7 +18,8 @@ import spring from "../assets/img/spring-boot.svg";
 import django from "../assets/img/django.svg";
 import jira from "../assets/img/jira.svg";
 import github from "../assets/img/github.svg";
-import postman from "../assets/img/postman.svg"
+import postman from "../assets/img/postman.svg";
+import vercel from "../assets/img/vercel.svg";
 import skillsBackground from "../assets/img/color-sharp.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -39,6 +40,7 @@ function Skillsets() {
     [postman, "Postman"],
     [git, "Git"],
     [figma, "Figma"],
+    [vercel, "Vercel"],
     [spring, "Spring Boot"],
     [firebase, "Firebase"],
     [jira, "Jira"],

@@ -18,9 +18,11 @@ import django from "../assets/img/django.svg";
 import jira from "../assets/img/jira.svg";
 import figma from "../assets/img/figma.svg";
 import pega from "../assets/img/pega.jpg";
+import hiveQL from "../assets/img/hiveQL.webp";
 import mailtrap from "../assets/img/mailtrap.png";
 import github from "../assets/img/github.svg";
 import postman from "../assets/img/postman.svg";
+import vercel from "../assets/img/vercel.svg";
 import Timeline from "./Timeline";
 import experienceBackground from "../assets/img/color-sharp2.png";
 
@@ -35,6 +37,7 @@ function Experience() {
         "Responsible for delivering an internal digital CRM platform for relationship managers to manage their customers' portfolios.",
         "Implemented an automated utility to shorten access management processing cycle for the CRM using Python.",
         "Developed user stories and designed wireframes for regional rollout of existing modules.",
+        "Created sandbox environment for the CRM in Hadoop using HiveQL, providing UAT data to the data analytics team.",
       ],
       imgUrl: ocbc,
       techStacks: [
@@ -42,6 +45,7 @@ function Experience() {
         [jira, "Jira"],
         [figma, "Figma"],
         [pega, "Pega"],
+        [hiveQL, "HiveQL"],
       ],
       link: "https://www.ocbc.com/group/gateway",
       date: "Jan 2023 - May 2023",
@@ -98,8 +102,9 @@ function Experience() {
         [nodeJS, "Node.js"],
         [mongoDB, "MongoDB"],
         [mailtrap, "Mailtrap.io"],
+        [vercel, "Vercel"],
       ],
-      link: "https://github.com/Cocoteax/Devcamper-REST-API",
+      link: "https://devcamper-rest-api.vercel.app/",
       date: "Jul 2023 - Aug 2023",
     },
     {
