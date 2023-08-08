@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3e3f4fd7.css",
-    "main.js": "/static/js/main.a30fe453.js",
+    "main.js": "/static/js/main.47df5da4.js",
     "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/astroLaptop.webp": "/static/media/astroLaptop.7820d7e97b7e1a5a7812.webp",
@@ -11,6 +11,7 @@
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/pega.jpg": "/static/media/pega.8979603faefdca4e43a7.jpg",
+    "static/media/hiveQL.webp": "/static/media/hiveQL.d735b2c20bedf72f8891.webp",
     "static/media/OCBC.png": "/static/media/OCBC.73e0479b8e116bd8b945.png",
     "static/media/postman.svg": "/static/media/postman.c74cd48d00339ba03ff2e6ed3f9d0c4d.svg",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
@@ -46,11 +47,12 @@
     "static/media/css.svg": "/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/html.svg": "/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/bytedance.svg": "/static/media/bytedance.06a5fe054b65072687c2342795c45a02.svg",
+    "static/media/vercel.svg": "/static/media/vercel.e47320f471b62b763961b75c494843e2.svg",
     "main.3e3f4fd7.css.map": "/static/css/main.3e3f4fd7.css.map",
-    "main.a30fe453.js.map": "/static/js/main.a30fe453.js.map"
+    "main.47df5da4.js.map": "/static/js/main.47df5da4.js.map"
   },
   "entrypoints": [
     "static/css/main.3e3f4fd7.css",
-    "static/js/main.a30fe453.js"
+    "static/js/main.47df5da4.js"
   ]
 }
