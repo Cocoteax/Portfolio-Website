@@ -732,7 +732,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-size: 1rem;
   }
   .timeline-desc-list li {
-    font-size: 1rem;
+    font-size: 0.875rem;
   }
 }
 

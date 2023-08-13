@@ -20,6 +20,7 @@ import jira from "../assets/img/jira.svg";
 import github from "../assets/img/github.svg";
 import postman from "../assets/img/postman.svg";
 import vercel from "../assets/img/vercel.svg";
+import bootstrap from "../assets/img/bootstrap.svg"
 import skillsBackground from "../assets/img/color-sharp.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -31,6 +32,7 @@ function Skillsets() {
     [javascript, "Javascript"],
     [html, "HTML"],
     [css, "CSS"],
+    [bootstrap, "Bootstrap"],
     [django, "Django"],
     [python, "Python"],
     [java, "Java"],
