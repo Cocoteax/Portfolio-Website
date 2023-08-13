@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3e3f4fd7.css",
-    "main.js": "/static/js/main.47df5da4.js",
+    "main.css": "/static/css/main.4cf8dfaa.css",
+    "main.js": "/static/js/main.e067ef3d.js",
     "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/astroLaptop.webp": "/static/media/astroLaptop.7820d7e97b7e1a5a7812.webp",
@@ -24,6 +24,7 @@
     "static/media/meter1.svg": "/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
     "static/media/meter3.svg": "/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
     "static/media/java.svg": "/static/media/java.20e6e1de4fb41af747d68c94cabbe015.svg",
+    "static/media/bootstrap.svg": "/static/media/bootstrap.93fe84041cc1b588f15c332248529333.svg",
     "static/media/mysql.svg": "/static/media/mysql.05fd76a6aeb04a48c744db4b4e9cb1f8.svg",
     "static/media/expense-tracker.svg": "/static/media/expense-tracker.e1a0cef7138034add933c952e5e55638.svg",
     "static/media/react.svg": "/static/media/react.57a71da916289f16ea11ce827f0b810e.svg",
@@ -48,11 +49,11 @@
     "static/media/html.svg": "/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/bytedance.svg": "/static/media/bytedance.06a5fe054b65072687c2342795c45a02.svg",
     "static/media/vercel.svg": "/static/media/vercel.e47320f471b62b763961b75c494843e2.svg",
-    "main.3e3f4fd7.css.map": "/static/css/main.3e3f4fd7.css.map",
-    "main.47df5da4.js.map": "/static/js/main.47df5da4.js.map"
+    "main.4cf8dfaa.css.map": "/static/css/main.4cf8dfaa.css.map",
+    "main.e067ef3d.js.map": "/static/js/main.e067ef3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e3f4fd7.css",
-    "static/js/main.47df5da4.js"
+    "static/css/main.4cf8dfaa.css",
+    "static/js/main.e067ef3d.js"
   ]
 }
