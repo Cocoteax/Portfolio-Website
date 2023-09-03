@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4cf8dfaa.css",
-    "main.js": "/static/js/main.e067ef3d.js",
+    "main.js": "/static/js/main.e129afef.js",
     "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/astroLaptop.webp": "/static/media/astroLaptop.7820d7e97b7e1a5a7812.webp",
@@ -13,6 +13,7 @@
     "static/media/pega.jpg": "/static/media/pega.8979603faefdca4e43a7.jpg",
     "static/media/hiveQL.webp": "/static/media/hiveQL.d735b2c20bedf72f8891.webp",
     "static/media/OCBC.png": "/static/media/OCBC.73e0479b8e116bd8b945.png",
+    "static/media/eCommerce.png": "/static/media/eCommerce.7b8b97bea2c95cbfc34c.png",
     "static/media/postman.svg": "/static/media/postman.c74cd48d00339ba03ff2e6ed3f9d0c4d.svg",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
@@ -28,6 +29,7 @@
     "static/media/mysql.svg": "/static/media/mysql.05fd76a6aeb04a48c744db4b4e9cb1f8.svg",
     "static/media/expense-tracker.svg": "/static/media/expense-tracker.e1a0cef7138034add933c952e5e55638.svg",
     "static/media/react.svg": "/static/media/react.57a71da916289f16ea11ce827f0b810e.svg",
+    "static/media/redux.svg": "/static/media/redux.dfee4812973517d9e9f1069ddfbb0465.svg",
     "static/media/nav-icon3.svg": "/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "static/media/django.svg": "/static/media/django.b062878ade3e5d6fdd56c82c5a1ca0ca.svg",
     "static/media/Mindfull.svg": "/static/media/Mindfull.141b9b683b224b13846ee66a3c1217ed.svg",
@@ -50,10 +52,10 @@
     "static/media/bytedance.svg": "/static/media/bytedance.06a5fe054b65072687c2342795c45a02.svg",
     "static/media/vercel.svg": "/static/media/vercel.e47320f471b62b763961b75c494843e2.svg",
     "main.4cf8dfaa.css.map": "/static/css/main.4cf8dfaa.css.map",
-    "main.e067ef3d.js.map": "/static/js/main.e067ef3d.js.map"
+    "main.e129afef.js.map": "/static/js/main.e129afef.js.map"
   },
   "entrypoints": [
     "static/css/main.4cf8dfaa.css",
-    "static/js/main.e067ef3d.js"
+    "static/js/main.e129afef.js"
   ]
 }
