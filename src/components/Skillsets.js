@@ -19,72 +19,74 @@ import django from "../assets/img/django.svg";
 import jira from "../assets/img/jira.svg";
 import github from "../assets/img/github.svg";
 import postman from "../assets/img/postman.svg";
+import redux from "../assets/img/redux.svg";
 import vercel from "../assets/img/vercel.svg";
-import bootstrap from "../assets/img/bootstrap.svg"
+import bootstrap from "../assets/img/bootstrap.svg";
 import skillsBackground from "../assets/img/color-sharp.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
 function Skillsets() {
-  const skillsAr = [
-    [reactJS, "React.js"],
-    [nodeJS, "Node.js"],
-    [expressJS, "Express.js"],
-    [javascript, "Javascript"],
-    [html, "HTML"],
-    [css, "CSS"],
-    [bootstrap, "Bootstrap"],
-    [django, "Django"],
-    [python, "Python"],
-    [java, "Java"],
-    [mongoDB, "MongoDB"],
-    [mySQL, "MySQL"],
-    [postgres, "PostgreSQL"],
-    [postman, "Postman"],
-    [git, "Git"],
-    [figma, "Figma"],
-    [vercel, "Vercel"],
-    [spring, "Spring Boot"],
-    [firebase, "Firebase"],
-    [jira, "Jira"],
-    [github, "Github"],
-  ];
-  return (
-    <section className="skillsets">
-      <Container>
-        <Row>
-          <Col>
-            <div className="skillsets-container" id="skills">
-              <ScrollAnimation
-                animateIn="animate__animated animate__fadeIn"
-                animateOut="animate_aniamted animate__fadeOut"
-              >
-                <h2>SKILLS</h2>
-                <div className="custom-grid gap-x-6 gap-y-4 md:gap-x-6 md:gap-y-6 break:gap-x-10 break:gap-y-8 mb-10">
-                  {/* Use .map() to iterate over each icon to create a pop up effect on hover */}
-                  {skillsAr.map((skill) => {
-                    return (
-                      <OverlayTrigger
-                        key={skill[0]}
-                        placement="bottom"
-                        overlay={<Tooltip>{skill[1]}</Tooltip>}
-                      >
-                        <img src={skill[0]} alt="skill"></img>
-                      </OverlayTrigger>
-                    );
-                  })}
-                </div>
-              </ScrollAnimation>
-            </div>
-          </Col>
-        </Row>
-      </Container>
-      <img
-        src={skillsBackground}
-        className="background-image-left"
-        alt="background"
-      />
-    </section>
-  );
+	const skillsAr = [
+		[reactJS, "React.js"],
+		[nodeJS, "Node.js"],
+		[expressJS, "Express.js"],
+		[javascript, "Javascript"],
+		[redux, "Redux"],
+		[html, "HTML"],
+		[css, "CSS"],
+		[bootstrap, "Bootstrap"],
+		[django, "Django"],
+		[python, "Python"],
+		[java, "Java"],
+		[mongoDB, "MongoDB"],
+		[mySQL, "MySQL"],
+		[postgres, "PostgreSQL"],
+		[postman, "Postman"],
+		[git, "Git"],
+		[figma, "Figma"],
+		[vercel, "Vercel"],
+		[spring, "Spring Boot"],
+		[firebase, "Firebase"],
+		[jira, "Jira"],
+		[github, "Github"],
+	];
+	return (
+		<section className="skillsets">
+			<Container>
+				<Row>
+					<Col>
+						<div className="skillsets-container" id="skills">
+							<ScrollAnimation
+								animateIn="animate__animated animate__fadeIn"
+								animateOut="animate_aniamted animate__fadeOut"
+							>
+								<h2>SKILLS</h2>
+								<div className="custom-grid gap-x-6 gap-y-4 md:gap-x-6 md:gap-y-6 break:gap-x-10 break:gap-y-8 mb-10">
+									{/* Use .map() to iterate over each icon to create a pop up effect on hover */}
+									{skillsAr.map((skill) => {
+										return (
+											<OverlayTrigger
+												key={skill[0]}
+												placement="bottom"
+												overlay={<Tooltip>{skill[1]}</Tooltip>}
+											>
+												<img src={skill[0]} alt="skill"></img>
+											</OverlayTrigger>
+										);
+									})}
+								</div>
+							</ScrollAnimation>
+						</div>
+					</Col>
+				</Row>
+			</Container>
+			<img
+				src={skillsBackground}
+				className="background-image-left"
+				alt="background"
+			/>
+		</section>
+	);
 }
 
 export default Skillsets;
