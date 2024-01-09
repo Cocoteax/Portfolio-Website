@@ -34,7 +34,7 @@ function Experience() {
 		{
 			title: "OCBC",
 			source:
-				"Product Owner / Software Engineer Intern\nGlobal Wholesale Banking",
+				"Software Engineer / Product Owner Intern\nGlobal Wholesale Banking",
 			description: [
 				"Responsible for delivering an internal digital CRM platform for relationship managers to manage their customers' portfolios.",
 				"Implemented an automated utility to shorten access management processing cycle for the CRM using Python.",
@@ -107,7 +107,7 @@ function Experience() {
 				[vercel, "Vercel"],
 			],
 			link: "https://github.com/Cocoteax/E-Commerce-App",
-			date: "Aug 2023 - PRESENT",
+			date: "Aug 2023 - Oct 2023",
 		},
 		{
 			title: "Devcamper REST API",
