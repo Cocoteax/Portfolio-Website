@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4cf8dfaa.css",
-    "main.js": "/static/js/main.8f82e0af.js",
+    "main.css": "/static/css/main.6f03bc8c.css",
+    "main.js": "/static/js/main.28c9460b.js",
     "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/astroLaptop.webp": "/static/media/astroLaptop.7820d7e97b7e1a5a7812.webp",
@@ -16,6 +16,7 @@
     "static/media/eCommerce.png": "/static/media/eCommerce.7b8b97bea2c95cbfc34c.png",
     "static/media/postman.svg": "/static/media/postman.c74cd48d00339ba03ff2e6ed3f9d0c4d.svg",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/dsta.svg": "/static/media/dsta.caf541bbd91f40b2a2efbcc0ae502113.svg",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/postgresql.svg": "/static/media/postgresql.ae92b576b8ea41666538c0756df27969.svg",
@@ -51,11 +52,11 @@
     "static/media/html.svg": "/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/bytedance.svg": "/static/media/bytedance.06a5fe054b65072687c2342795c45a02.svg",
     "static/media/vercel.svg": "/static/media/vercel.e47320f471b62b763961b75c494843e2.svg",
-    "main.4cf8dfaa.css.map": "/static/css/main.4cf8dfaa.css.map",
-    "main.8f82e0af.js.map": "/static/js/main.8f82e0af.js.map"
+    "main.6f03bc8c.css.map": "/static/css/main.6f03bc8c.css.map",
+    "main.28c9460b.js.map": "/static/js/main.28c9460b.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cf8dfaa.css",
-    "static/js/main.8f82e0af.js"
+    "static/css/main.6f03bc8c.css",
+    "static/js/main.28c9460b.js"
   ]
 }
