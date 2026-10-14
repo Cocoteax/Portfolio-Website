@@ -73,13 +73,13 @@ function NavBar() {
           <span className="navbar-socials">
             <div className="social-icon">
               {/* Add social links on href */}
-              <a href="https://www.linkedin.com/in/joshuachng/" target="_blank">
+              <a href="https://www.linkedin.com/in/joshuachng/" target="_blank" rel="noreferrer">
                 <img src={linkedInIcon} alt="linkedin" />
               </a>
-              <a href="https://github.com/Cocoteax" target="_blank">
+              <a href="https://github.com/Cocoteax" target="_blank" rel="noreferrer">
                 <img src={githubIcon} alt="github" />
               </a>
-              <a href="https://www.instagram.com/joshhhuuaa/" target="_blank">
+              <a href="https://www.instagram.com/joshhhuuaa/" target="_blank" rel="noreferrer">
                 <img src={instaIcon} alt="insta" />
               </a>
             </div>

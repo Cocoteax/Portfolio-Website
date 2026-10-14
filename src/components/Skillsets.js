@@ -23,7 +23,7 @@ import redux from "../assets/img/redux.svg";
 import vercel from "../assets/img/vercel.svg";
 import bootstrap from "../assets/img/bootstrap.svg";
 import skillsBackground from "../assets/img/color-sharp.png";
-import ScrollAnimation from "react-animate-on-scroll";
+import FadeIn from "./FadeIn";
 
 function Skillsets() {
 	const skillsAr = [
@@ -56,10 +56,7 @@ function Skillsets() {
 				<Row>
 					<Col>
 						<div className="skillsets-container" id="skills">
-							<ScrollAnimation
-								animateIn="animate__animated animate__fadeIn"
-								animateOut="animate_aniamted animate__fadeOut"
-							>
+							<FadeIn>
 								<h2>SKILLS</h2>
 								<div className="custom-grid gap-x-6 gap-y-4 md:gap-x-6 md:gap-y-6 break:gap-x-10 break:gap-y-8 mb-10">
 									{/* Use .map() to iterate over each icon to create a pop up effect on hover */}
@@ -75,7 +72,7 @@ function Skillsets() {
 										);
 									})}
 								</div>
-							</ScrollAnimation>
+							</FadeIn>
 						</div>
 					</Col>
 				</Row>
