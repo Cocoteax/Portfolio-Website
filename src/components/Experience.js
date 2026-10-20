@@ -8,7 +8,6 @@ import mindfull from "../assets/img/Mindfull.svg";
 import ocbc from "../assets/img/OCBC.png";
 import psa from "../assets/img/psa.svg";
 import dsta from "../assets/img/dsta.svg";
-import byteDance from "../assets/img/bytedance.svg";
 import javascript from "../assets/img/javascript.svg";
 import react from "../assets/img/react.svg";
 import nodeJS from "../assets/img/nodejs.svg";
