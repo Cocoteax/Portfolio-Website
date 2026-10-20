@@ -7,6 +7,7 @@ import expenseTracker from "../assets/img/expense-tracker.svg";
 import mindfull from "../assets/img/Mindfull.svg";
 import ocbc from "../assets/img/OCBC.png";
 import psa from "../assets/img/psa.svg";
+import dsta from "../assets/img/dsta.svg";
 import byteDance from "../assets/img/bytedance.svg";
 import javascript from "../assets/img/javascript.svg";
 import react from "../assets/img/react.svg";
@@ -31,6 +32,15 @@ import experienceBackground from "../assets/img/color-sharp2.png";
 function Experience() {
 	// work timeline elements
 	const work = [
+		{
+			title: "DSTA",
+			source: "Software Engineer\nTechnology Graduate Programme",
+			description: ["Journey in the making..."],
+			imgUrl: dsta,
+			techStacks: [],
+			link: "https://www.dsta.gov.sg/",
+			date: "Jul 2024 - Present",
+		},
 		{
 			title: "OCBC",
 			source:

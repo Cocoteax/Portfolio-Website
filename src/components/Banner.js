@@ -6,89 +6,90 @@ import { ArrowRightCircle } from "react-bootstrap-icons";
 import bannerImg from "../assets/img/astroLaptop.webp";
 
 function Banner() {
-  const wordsToRotate = [
-    "Aspiring Software Engineer",
-    "Computer Science Student",
-    "People-Oriented Individual",
-  ];
-  const [loopNum, setLoopNum] = useState(0); // Used to determine which word we are rotating from the array
-  const [isDeleting, setIsDeleting] = useState(false);
-  const [displayedText, setDisplayedText] = useState("");
-  const [period, setPeriod] = useState(100);
+	const wordsToRotate = [
+		"Software Engineer",
+		"Computer Science Graduate",
+		"People-Oriented Individual",
+	];
+	const [loopNum, setLoopNum] = useState(0); // Used to determine which word we are rotating from the array
+	const [isDeleting, setIsDeleting] = useState(false);
+	const [displayedText, setDisplayedText] = useState("");
+	const [period, setPeriod] = useState(100);
 
-  const delay = (ms) => {
-    return new Promise((resolve) => setTimeout(resolve, ms));
-  };
+	const delay = (ms) => {
+		return new Promise((resolve) => setTimeout(resolve, ms));
+	};
 
-  useEffect(() => {
-    let timer = setTimeout(() => {
-      rotateWords();
-    }, period);
+	useEffect(() => {
+		let timer = setTimeout(() => {
+			rotateWords();
+		}, period);
 
-    return () => clearTimeout(timer);
-  }, [displayedText, isDeleting, period]);
+		return () => clearTimeout(timer);
+	}, [displayedText, isDeleting, period]);
 
-  const rotateWords = async () => {
-    let i = loopNum % wordsToRotate.length;
-    let fullText = wordsToRotate[i];
-    // Displaying full text
-    if (!isDeleting && displayedText !== fullText) {
-      setDisplayedText(fullText.slice(0, displayedText.length + 1));
-    }
-    // Full text displayed, starting deletion
-    else if (!isDeleting && displayedText === fullText) {
-      await delay(1500);
-      setPeriod(50);
-      setIsDeleting(true);
-    }
-    // Deleting text
-    else if (isDeleting && displayedText !== "") {
-      setDisplayedText(fullText.slice(0, displayedText.length - 1));
-    }
-    // Text fully deleted, displaying next word
-    else {
-      await delay(1000);
-      setPeriod(100);
-      setLoopNum((prev) => prev + 1);
-      setIsDeleting(false);
-    }
-  };
+	const rotateWords = async () => {
+		let i = loopNum % wordsToRotate.length;
+		let fullText = wordsToRotate[i];
+		// Displaying full text
+		if (!isDeleting && displayedText !== fullText) {
+			setDisplayedText(fullText.slice(0, displayedText.length + 1));
+		}
+		// Full text displayed, starting deletion
+		else if (!isDeleting && displayedText === fullText) {
+			await delay(1500);
+			setPeriod(50);
+			setIsDeleting(true);
+		}
+		// Deleting text
+		else if (isDeleting && displayedText !== "") {
+			setDisplayedText(fullText.slice(0, displayedText.length - 1));
+		}
+		// Text fully deleted, displaying next word
+		else {
+			await delay(1000);
+			setPeriod(100);
+			setLoopNum((prev) => prev + 1);
+			setIsDeleting(false);
+		}
+	};
 
-  return (
-    <section className="banner" id="about">
-      <Container>
-        <Row className="align-items-center">
-          <Col xs={12} md={6} xl={7}>
-            <h1>
-              {`Joshua Chng`}
-              <span className="dynamic-text">{displayedText}_</span>
-            </h1>
-            <p>
-              Hi! I am a penultimate year Computer Science student at Nanyang
-              Technological University. Equipped with a positive attitude and a
-              passion for the IT industry, I constantly strive to expand my
-              horizons and take on new challenges! I love meeting new people so
-              feel free to connect with me :D
-              <button
-                onClick={() =>
-                  window.open(
-                    "https://www.linkedin.com/in/joshuachng/",
-                    "_blank"
-                  )
-                }
-              >
-                Let's connect!
-                <ArrowRightCircle size={25} />
-              </button>
-            </p>
-          </Col>
-          <Col xs={12} md={6} xl={5}>
-            <img src={bannerImg} alt="Banner img" className="bannerImg"></img>
-          </Col>
-        </Row>
-      </Container>
-    </section>
-  );
+	return (
+		<section className="banner" id="about">
+			<Container>
+				<Row className="align-items-center">
+					<Col xs={12} md={6} xl={7}>
+						<h1>
+							{`Joshua Chng`}
+							<span className="dynamic-text">{displayedText}_</span>
+						</h1>
+						<p>
+							Hi! I'm a Computer Science Graduate from Nanyang Technological
+							University. Currently, I am working as a Software Engineer at DSTA
+							under the Technology Graduate Program. Equipped with a positive
+							attitude and a passion for the IT industry, I constantly strive to
+							expand my horizons and take on new challenges! I love meeting new
+							people so feel free to connect with me :D
+							<button
+								onClick={() =>
+									window.open(
+										"https://www.linkedin.com/in/joshuachng/",
+										"_blank"
+									)
+								}
+							>
+								Let's connect!
+								<ArrowRightCircle size={25} />
+							</button>
+						</p>
+					</Col>
+					<Col xs={12} md={6} xl={5}>
+						<img src={bannerImg} alt="Banner img" className="bannerImg"></img>
+					</Col>
+				</Row>
+			</Container>
+		</section>
+	);
 }
 
 export default Banner;
