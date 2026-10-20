@@ -1,9 +1,8 @@
-import ScrollAnimation from "react-animate-on-scroll";
+import FadeIn from "./components/FadeIn";
 import "./App.css";
 import Banner from "./components/Banner";
 import Experience from "./components/Experience";
 import NavBar from "./components/NavBar";
-import Skills from "./components/Skills";
 import Skillsets from "./components/Skillsets";
 import "animate.css";
 
@@ -14,12 +13,9 @@ function App() {
         <Banner />
       {/* <Skills /> */}
       <Skillsets />
-      <ScrollAnimation
-        animateIn="animate__animated animate__fadeIn"
-        duration="3"
-      >
+      <FadeIn duration={3}>
         <Experience />
-      </ScrollAnimation>
+      </FadeIn>
     </div>
   );
 }

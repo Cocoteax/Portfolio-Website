@@ -25,8 +25,10 @@ function Banner() {
 			rotateWords();
 		}, period);
 
-		return () => clearTimeout(timer);
-	}, [displayedText, isDeleting, period]);
+    return () => clearTimeout(timer);
+    // rotateWords only reads loopNum, which changes together with these deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [displayedText, isDeleting, period]);
 
 	const rotateWords = async () => {
 		let i = loopNum % wordsToRotate.length;
